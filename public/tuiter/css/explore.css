@@ -1,0 +1,53 @@
+.wd-bg-black {
+  background-color:black
+}
+
+.wd-rounded-corners{
+  border-radius:25px;
+}
+
+.wb-bg-grey{
+  background-color:darkgrey
+}
+
+.wb-margin-left{
+  margin-left:16px;
+}
+
+.wb-border-none{
+  border:none
+}
+
+.wb-height-40px{
+  height:40px
+}
+
+.wb-padding-10-all{
+  padding:10px
+}
+
+label {
+  display: block;
+}
+
+.wb-width-80pc {
+  width:80%
+}
+
+.wb-height-20px{
+  height:20px
+}
+
+.wb-grid-row {
+    clear: both;
+}
+
+.wb-grid-col-third-page {
+    width: 33%;
+    float: left;
+}
+
+.wb-grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+}
