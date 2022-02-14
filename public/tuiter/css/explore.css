@@ -2,52 +2,148 @@
   background-color:black
 }
 
+.wd-margin-top{
+  margin-top:16px;
+}
 .wd-rounded-corners{
   border-radius:25px;
 }
 
-.wb-bg-grey{
+.wd-bg-grey{
   background-color:darkgrey
 }
 
-.wb-margin-left{
+.wd-margin-left{
   margin-left:16px;
 }
 
-.wb-border-none{
+.wd-border-none{
   border:none
 }
 
-.wb-height-40px{
+.wd-no-outline{
+  outline:none
+}
+
+.wd-height-40px{
   height:40px
 }
 
-.wb-padding-10-all{
-  padding:10px
+.wd-padding-10-all{
+  padding:18px 10px 10px 10px
 }
 
 label {
   display: block;
 }
 
-.wb-width-80pc {
+.wd-width-80pc {
   width:80%
 }
 
-.wb-height-20px{
+.wd-height-20px{
   height:20px
 }
 
-.wb-grid-row {
+.wd-grid-row {
     clear: both;
 }
 
-.wb-grid-col-third-page {
+.wd-grid-col-third-page {
     width: 33%;
     float: left;
 }
 
-.wb-grid-col-two-thirds-page {
+.wd-grid-col-two-thirds-page {
     width: 67%;
     float: left;
+}
+
+.wd-float-right{
+  float:right
+}
+
+.wd-right-margin-16{
+  margin-right:16px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+.wd-li-style {
+  color: rgb(110, 118, 125);
+  text-align: center;
+  padding: 16px 16px 16px 16px;
+}
+.wd-a-style{
+ font-size: 15px;
+ color: rgb(110, 118, 125);
+ text-decoration: none;
+
+}
+
+.wd-active {
+  color: rgb(29,161,242) !Important;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(29,161,242);
+}
+
+.wd-line-style{
+  width:100%;
+  height:4px;
+  background-color:rgb(47, 51, 54);
+  margin:0px
+}
+
+.wd-thicc-line-style{
+ width:100%;
+ height:16px;
+ background-color:rgb(44, 44, 44);
+ margin:0px
+}
+
+.wd-grey13-text{
+  font-size:13px;
+  color:rgb(110, 118, 125);
+}
+
+.wd-white-color{
+  color:white
+}
+
+.wd-news-box {
+  width:100%;
+  color:white;
+  height: 132px;
+  border-style:solid;
+  border-width: 0px 0px 3px 0px;
+  border-color:rgb(47, 51, 54);
+  clear:both;
+}
+
+.wd-news-link{
+  font-size:15px;
+  color: white;
+  text-decoration: none;
+}
+
+.wd-side-lines{
+  padding-top:16px;
+  border-left:solid;
+  border-right:solid;
+  border-width:3px;
+  border-color:rgb(47, 51, 54);
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:0px;
+  height:100%;
 }
