@@ -1,3 +1,157 @@
-.bg-black {
+.wd-bg-black {
   background-color:black
+}
+.wd-side-lines{
+  padding-top:1px;
+  border-left:solid;
+  border-right:solid;
+  border-width:1px;
+  border-color:rgb(47, 51, 54);
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:0px;
+  height:100%;
+}
+
+.wd-no-margin{
+  margin:0px;
+}
+
+.wd-heading{
+  font-size: 20px;
+  color:white;
+  margin-left:16px;
+  margin-top:12px;
+}
+
+.wd-13lightgrey{
+  color:lightgrey;
+  size:13px;
+  margin-left:16px;
+  margin-bottom:12px;
+}
+
+.wd-grey-bottom-border{
+  border-bottom: 1px solid rgb(47, 51, 54);
+  clear:both;
+  height:65px;
+}
+
+.wd-float-left{
+  float:left;
+}
+
+.wd-float-right{
+  float:right;
+  margin-right:16px;
+}
+
+.wd-grid-col-third-page {
+    width: 33%;
+    float: left;
+}
+
+.wd-grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+}
+
+.wd-color-white{
+  color:white;
+}
+
+.wd-margin-top-12{
+  margin-top:12px;
+}
+.wb-grid-col-128{
+  width:128px;
+  float:left;
+}
+.wb-grid-col-remaining{
+  flex-grow: 1;
+  float:left;
+}
+.wd-grid-col-15p {
+    width: 15%;
+    float: left;
+}
+.wd-grid-col-85p {
+    width: 85%;
+    float: left;
+}
+.wd-circle-image{
+  border-radius:100px;
+  margin-left:16px;
+  margin-top:12px;
+}
+
+.wd-margin-left-12{
+  margin-left:12px;
+}
+
+.wd-margin-top-12{
+  margin-top:12px;
+}
+
+.wd-font-15{
+  font-size:15px;
+}
+
+.wd-rounded-corners{
+  border-radius:25px;
+}
+
+.wd-border-all{
+  border: 1px solid rgb(47, 51, 54);
+  float:left;
+  clear:both;
+  width:504px
+}
+
+.wd-bold-white{
+  font-weight:bold;
+  font-size:15px;
+  color:white;
+  padding:12px;
+}
+.wd-round-top{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom:1px solid rgb(47, 51, 54);
+}
+
+.wd-undertext{
+  margin:12px;
+  margin-top:0px;
+  color:lightgrey;
+}
+
+.wd-padding-12-top{
+  padding-top:12px;
+}
+
+.wd-table{
+  clear:both;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  width:504px;
+  padding-top:12px;
+}
+.wd-buttons{
+  display: table-cell;
+  text-align: center;
+}
+
+.wd-color-red{
+  color:red;
+}
+.wd-clear-both{
+  clear:both;
+}
+.wd-big-box{
+  clear:both;
+  color:white;
+  border-bottom:solid 1px rgb(47, 51, 54);
+  height:475px
 }

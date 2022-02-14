@@ -21,6 +21,7 @@
   border:none
 }
 
+
 .wd-no-outline{
   outline:none
 }
@@ -59,6 +60,10 @@ label {
     float: left;
 }
 
+.wd-no-margin{
+  margin:0px;
+}
+
 .wd-float-right{
   float:right
 }
@@ -67,7 +72,7 @@ label {
   margin-right:16px
 }
 
-ul {
+.wd-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -84,11 +89,16 @@ ul {
   text-align: center;
   padding: 16px 16px 16px 16px;
 }
+
 .wd-a-style{
  font-size: 15px;
  color: rgb(110, 118, 125);
  text-decoration: none;
 
+}
+
+.wd-bg-light-blue{
+  color: rgb(29,161,242) !Important;
 }
 
 .wd-active {
@@ -106,7 +116,7 @@ ul {
 
 .wd-thicc-line-style{
  width:100%;
- height:16px;
+ height:10px;
  background-color:rgb(44, 44, 44);
  margin:0px
 }
@@ -137,7 +147,7 @@ ul {
 }
 
 .wd-side-lines{
-  padding-top:16px;
+  padding-top:1px;
   border-left:solid;
   border-right:solid;
   border-width:3px;
