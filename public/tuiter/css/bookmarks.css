@@ -153,5 +153,6 @@
   clear:both;
   color:white;
   border-bottom:solid 1px rgb(47, 51, 54);
-  height:475px
+  height:475px;
+  margin-top:12px;
 }
