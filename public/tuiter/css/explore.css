@@ -22,11 +22,98 @@
   padding: 15px 5px 15px 15px;
 }
 
-.wd-rounded-button{
+.wd-rounded{
   border-radius: 25px;
 }
 
+.wd-rounded-corners{
+  border-radius: 15%;
+}
 .wd-active{
   background-color:#0d6efd;
   color:white;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: grey;
+}
+
+.wd-circle{
+  border-radius:100%;
+}
+
+.wd-gear-position {
+  height:100%;
+  padding-top:30%;
+}
+
+.wd-starship-bg{
+  background-image: url("../../images/starship-ground.jpeg");
+  max-width: 100%;
+  background-size: cover;
+  text-align: center;
+  height:500px;
+  display: flex;
+
+}
+
+.wd-image-text{
+  display: inline-block;
+  align-self: flex-end;
+  color:white;
+  margin-left:8px;
+}
+
+.wd-color-grey{
+  color:grey;
+}
+
+.wd-float-right{
+  float:right;
+}
+
+.wd-width-100{
+  width:100%;
+}
+
+.wd-no-right-pad{
+  padding-right: 0px;
+}
+.wd-no-left-pad{
+  padding-left: 0px;
+}
+
+@media (min-width: 0 and max-width: 1200px){
+    .row {
+      --bs-gutter-x:0px;
+    }
+}
+
+.wd-mar-right{
+  margin-right: 20px;
+}
+
+.wd-mar-left{
+  margin-left: 8px;
+}
+
+.wd-padding-20-lr{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.wd-font-size-sm{
+  font-size:12px;
 }
