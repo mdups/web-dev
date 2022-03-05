@@ -5,7 +5,7 @@ const PostSummaryItem = (post) => {
                     <div class="col-10">
                       <div> ${post.topic}</div>
                       <strong>
-                        ReactJS
+                        ${post.userName}
                         <i class="fa-solid fa-circle-check"></i>
                       </strong>
                       <span>
