@@ -30,7 +30,7 @@ const ExploreComponent = () => {
             </li>
           </ul>
           <div class="wd-starship-bg mt-1 img-responsive">
-            <div class="wd-image-text"> <h1>SpaceX's Starship </h1></div>
+            <div class="wd-image-text"> <h2>SpaceX\x27s Starship </h2></div>
           </div>
           ${PostSummaryList()}
     `);
