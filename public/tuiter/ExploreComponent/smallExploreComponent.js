@@ -1,5 +1,5 @@
 import PostSummaryList from "../PostSummaryList/index.js";
-const ExploreComponent = () => {
+const smallExploreComponent = () => {
     return(`
            <div class="row mb-2">
               <div class="form-group has-search col-11 ">
@@ -25,9 +25,6 @@ const ExploreComponent = () => {
             <li class="nav-item ">
               <a class="nav-link " href="#">Sports</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link " href="#">Entertainment</a>
-            </li>
           </ul>
           <div class="wd-starship-bg mt-1 img-responsive">
             <div class="wd-image-text"> <h1>SpaceX's Starship </h1></div>
@@ -35,4 +32,4 @@ const ExploreComponent = () => {
           ${PostSummaryList()}
     `);
 }
-export default ExploreComponent;
+export default smallExploreComponent;

@@ -9,7 +9,7 @@ const PostSummaryItem = (post) => {
                         <i class="fa-solid fa-circle-check"></i>
                       </strong>
                       <span>
-                      ${post.time}
+                      - ${post.time}
                       <div> ${post.tweets}</div>
                     </span>
                       <div> <strong> ${post.title} </strong></div>
