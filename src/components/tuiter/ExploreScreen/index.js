@@ -2,7 +2,7 @@ import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
 import smallSidebar from "../NavigationSidebar/smallSidebar";
 import ExploreComponent from "../ExploreComponent";
-import smallExploreComponent from  "../ExploreComponent/smallExploreComponent";
+import SmallExploreComponent from  "../ExploreComponent/smallExploreComponent";
 import WhoToFollowList from "../WhoToFollowList";
 
 const ExploreScreen = () => {

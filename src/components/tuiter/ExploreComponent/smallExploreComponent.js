@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 
 
-const ExploreComponent = ({active='foryou'}) => {
+const SmallExploreComponent = ({active='foryou'}) => {
    const searchFormStyle = {
       "padding-left": "2.375rem"
    }
@@ -83,4 +83,4 @@ const ExploreComponent = ({active='foryou'}) => {
       </>
     );
 }
-export default ExploreComponent;
+export default SmallExploreComponent;
