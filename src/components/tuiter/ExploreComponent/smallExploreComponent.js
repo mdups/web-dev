@@ -75,10 +75,6 @@ const ExploreComponent = ({active='foryou'}) => {
               <Link className={`nav-link
                 ${active === 'sports' ? 'active' : ''}`} to="sports">Sports</Link>
             </li>
-            <li className="nav-item ">
-              <Link className={`nav-link
-                ${active === 'entertainment' ? 'active' : ''}`} to="entertainment">Entertainment</Link>
-            </li>
           </ul>
           <div style={backgroundImage} className="mt-1 img-responsive">
             <div style={imageText}> <h2>SpaceX's Starship </h2></div>
