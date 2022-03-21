@@ -7,13 +7,15 @@ const WhoToFollowListItem = (
         userName: 'NASA',
         handle: 'NASA',
         }
-      }
-    ) => {
+      }) => {
+    const wdCircle = {
+      "border-radius":"100%"
+    }
     return(
            <li className="list-group-item">
             <div className="row">
               <div className="col-2">
-                <img src={who.avatarIcon} height="50px" width="50px" className=" wd-circle" />
+                <img src={who.avatarIcon} height="50px" width="50px" style={wdCircle} />
               </div>
               <div className="col-7 col">
                 <strong>
