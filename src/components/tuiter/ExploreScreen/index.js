@@ -1,6 +1,6 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
-import smallSidebar from "../NavigationSidebar/smallSidebar";
+import SmallSidebar from "../NavigationSidebar/smallSidebar";
 import ExploreComponent from "../ExploreComponent";
 import SmallExploreComponent from  "../ExploreComponent/smallExploreComponent";
 import WhoToFollowList from "../WhoToFollowList";
@@ -12,14 +12,14 @@ const ExploreScreen = () => {
           <div className="d-none d-xl-block col-xl-2 justify-content-center">
             <NavigationSidebar/>
           </div>
-          <div class="d-sm-block col-sm-2 d-md-block col-md-2 d-lg-block col-lg-1 d-xl-none justify-content-center">
-            <smallSidebar/>
+          <div class="d-none d-lg-block d-sm-block col-sm-2 d-md-block col-md-2 d-lg-block col-lg-1 d-xl-none justify-content-center">
+            <SmallSidebar/>
           </div>
           <div className="d-none d-xl-block col-xl-6">
             <ExploreComponent/>
           </div>
           <div className="col-sm-10 col-md-10 col-lg-6 d-lg-block d-xl-none">
-            <smallExploreComponent/>
+            <SmallExploreComponent/>
           </div>
           <div className="d-none d-lg-block col-lg-5 d-xl-block col-xl-4">
             <WhoToFollowList/>

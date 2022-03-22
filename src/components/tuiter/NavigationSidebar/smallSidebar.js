@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
-const smallSidebar = ({active = 'explore'}) => {
+
+const SmallSidebar = ({active = 'explore'}) => {
     const iconStyle = {
       "vertical-align":"middle",
       "display":"inline-block"
@@ -37,8 +38,8 @@ const smallSidebar = ({active = 'explore'}) => {
               <i className="fas fa-circle fa-stack-2x" style={iconStyle}></i>
               <i className="fas fa-ellipsis fa-stack-1x fa-inverse" style={iconStyle}></i>
             </span></Link>
-          <div className="d-grid mt-2">
-            <Link to="tweet" className="btn btn-primary btn-block rounded-pill">
+          <div className="d-grid mt-2 justify-content-center">
+            <Link to="tweet" className=" btn btn-primary btn-block rounded-pill">
             Tweet</Link>
           </div>
         </div>
@@ -46,4 +47,4 @@ const smallSidebar = ({active = 'explore'}) => {
       </>
     );
 }
-export default smallSidebar;
+export default SmallSidebar;
