@@ -9,14 +9,9 @@ const Labs = () => {
     return(
       <div>
           <h1>Labs</h1>
-          <ConditionalOutput/>
-          <Styles/>
-          <Classes/>
-          <TodoList/>
+
           <ReduxExamples />
-          <Link to="/hello">
-              Hello
-          </Link> |
+
           <Link to="/tuiter">
               Tuiter
           </Link>
