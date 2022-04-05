@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "../TuitStats"
+import {deleteTuit,updateTuit} from "../../../actions/tuits-actions";
+
 const TuitListItem = ({
     tuit = {
                "_id": "123",
@@ -32,9 +34,7 @@ const TuitListItem = ({
       "color":"grey"
     }
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
+
     return(
       <li className="list-group-item">
         <div className="row">
@@ -45,17 +45,30 @@ const TuitListItem = ({
             <div>
               {tuit.postedBy.username}
               <span style={colorGrey}> @{tuit.handle}</span>
-              <span> <i onClick={() =>
-                  deleteTuit(tuit)}
-                  className="fas fa-times fa-pull-right">
-                </i></span>
+              <i className="fas fa-times float-end"
+                       onClick={() => deleteTuit(
+                         dispatch, tuit)}></i>
             </div>
             {tuit.tuit}
             <div className="row mt-1 row">
-              <i className="fas fa-comment col-3"> {tuit.stats.comments} </i>
-              <i className="fas fa-retweet col-3">{tuit.stats.retuits}</i>
-              <span className="col-3"><TuitStats tuit={tuit}/></span>
-              <i className="fas fa-share col-3"></i>
+              <i className="fas fa-comment col-2"> {tuit.stats.comments} </i>
+              <i className="fas fa-retweet col-2">{tuit.stats.retuits}</i>
+
+              <div className="col-2">
+                   <i onClick={() => updateTuit(dispatch, {
+                     ...tuit,
+                     likes: tuit.likes + 1
+                   })} className="far fa-thumbs-up ms-2"></i>
+                   {tuit.likes}
+              </div>
+              <div className="col-2">
+                                 <i onClick={() => updateTuit(dispatch, {
+                                   ...tuit,
+                                   dislikes: tuit.dislikes + 1
+                                 })} className="far fa-thumbs-down ms-2"></i>
+                                 {tuit.dislikes}
+                            </div>
+              <i className="fas fa-share col-2"></i>
             </div>
           </div>
         </div>
