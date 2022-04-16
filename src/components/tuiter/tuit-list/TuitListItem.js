@@ -68,7 +68,7 @@ const TuitListItem = ({
                                  })} className="far fa-thumbs-down ms-2"></i>
                                  {tuit.dislikes}
                             </div>
-              <i className="fas fa-share col-2:"></i>
+              <i className="fas fa-share col-2"></i>
             </div>
           </div>
         </div>
